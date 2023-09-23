@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/soccer" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="100dp"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:onClick="myListener"
+            android:text="Introduction" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="150dp"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:onClick="myListener1"
+            android:text="Settings" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="200dp"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:onClick="myListener2"
+            android:text="Start" />
+    </AbsoluteLayout>
+
+</FrameLayout>
